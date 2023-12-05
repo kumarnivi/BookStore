@@ -1,0 +1,30 @@
+@import '../portfolio/portfolio.component.css';
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    display: grid;
+    place-items: center;
+    height: 96vh;
+    font-weight: bold;
+    color: #d7385e;
+    font-size: calc(2rem + 5vw);
+  }
+  
+
+  * {
+    box-sizing: border-box;
+  }
+  #infinite-scroll-svg {
+    max-width: 100%;
+    max-height: 95vh;
+  }
+  
